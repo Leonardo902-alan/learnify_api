@@ -38,13 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-    # Third party apps
-    'rest_framework',
-    'django_filters',
-    'corsheaders',
-    
-    # Local apps
-    'courses',
+    'rest_framework',  # ← Debe estar
+    'courses',         # ← Debe estar
 ]
 
 MIDDLEWARE = [
